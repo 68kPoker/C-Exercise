@@ -1,4 +1,4 @@
-# Excercises
+# Exercises
 
 Here are some useful C/C++ exercises! They can explain How to achieve various things.
 
