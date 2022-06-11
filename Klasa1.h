@@ -1,9 +1,4 @@
 
-#include <iostream>
-
-using namespace std;
-
-class Prostokat;
 class Figura
 {
 public:
@@ -41,5 +36,3 @@ public:
     Prostokat( int a, int b ) : a( a ), b( b ) { }
     Prostokat( const Kwadrat &k ) : a( k.a ), b( k.a ) { }
 };
-
-//Prostokat::Prostokat( Kwadrat &k ) : a( k.a ), b( k.a ) {}
