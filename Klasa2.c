@@ -28,6 +28,7 @@ int idz( struct Bohater *b, int kier )
     {
         przejdz( b->p, b->poz, kier );
         b->poz += kier;
+        b->kier = kier;
 
         return( 1 );
     }
